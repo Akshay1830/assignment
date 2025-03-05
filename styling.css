@@ -1,0 +1,82 @@
+ul{
+    display: flex;
+    list-style-type: none;
+    gap: 10px;
+    flex-wrap: wrap;
+}
+
+li{
+    padding: 5px;
+    border-radius: 2px;
+    transition: transform 0.5s, background-color 0.5s;
+}
+
+
+
+
+.navbar{
+    display: flex;
+    justify-content: space-between;
+}
+
+.main-menu ul li{
+    margin-right: 10px;
+}
+
+.navbar h1{
+    color: blue;
+}
+body{
+    background-color: black;
+    color: white;
+}
+.home {
+    display: flex;
+}
+.home h1{
+    width: 40%;
+    margin-left: 30px;
+    font-size: 30px;
+}
+
+.home p{
+    margin-left: 50px;
+}
+
+.button blue{
+    margin-left: 50px;
+}
+
+.cards{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+}
+
+.pic{
+    width: 250px;
+    height: 250px;
+    border-radius: 5px;
+    margin-right: 20px;
+}
+
+.image{
+    display: flex;
+    width: 250px;
+    height: 250px;
+    border-radius: 2px;
+}
+
+.Getting-started h1{
+    text-align:center;
+}
+.pic:hover{
+    transform: scale(1.1);
+    background-color:yellowgreen;
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
+li:hover{
+    transform: scale(1.1);
+    border-bottom: 2px solid black;
+    cursor: pointer;
+}
